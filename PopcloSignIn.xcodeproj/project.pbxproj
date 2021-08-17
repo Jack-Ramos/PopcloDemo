@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0421416626B8EFCB00CA4D0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0421416526B8EFCB00CA4D0C /* AppDelegate.swift */; };
+		0421416826B8EFCB00CA4D0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0421416726B8EFCB00CA4D0C /* SceneDelegate.swift */; };
+		0421416A26B8EFCB00CA4D0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0421416926B8EFCB00CA4D0C /* ViewController.swift */; };
+		0421416D26B8EFCB00CA4D0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0421416B26B8EFCB00CA4D0C /* Main.storyboard */; };
+		0421416F26B8EFCE00CA4D0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0421416E26B8EFCE00CA4D0C /* Assets.xcassets */; };
+		0421417226B8EFCE00CA4D0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0421417026B8EFCE00CA4D0C /* LaunchScreen.storyboard */; };
+		0421417D26B8EFCF00CA4D0C /* PopcloSignInTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0421417C26B8EFCF00CA4D0C /* PopcloSignInTests.swift */; };
+		0421418826B8EFCF00CA4D0C /* PopcloSignInUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0421418726B8EFCF00CA4D0C /* PopcloSignInUITests.swift */; };
+		0421419626B8F01200CA4D0C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0421419526B8F01200CA4D0C /* SignUpViewController.swift */; };
+		0421419826B8F02800CA4D0C /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0421419726B8F02800CA4D0C /* LogInViewController.swift */; };
+		0421419A26B8F05000CA4D0C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0421419926B8F05000CA4D0C /* HomeViewController.swift */; };
+		0421419D26B8F89000CA4D0C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0421419C26B8F89000CA4D0C /* Utilities.swift */; };
+		042141A026BA14CD00CA4D0C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0421419F26BA14CD00CA4D0C /* GoogleService-Info.plist */; };
+		042141A226BA614A00CA4D0C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042141A126BA614A00CA4D0C /* Constants.swift */; };
+		04A1BB2026C03B1A008633D5 /* homebg.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04A1BB1F26C03B1A008633D5 /* homebg.mp4 */; };
+		04A1BB2626C05CA0008633D5 /* loginbg.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04A1BB2526C05CA0008633D5 /* loginbg.mp4 */; };
+		3C47E1B76332E21E783A18E2 /* Pods_PopcloSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFC80DCE1C030378506461D /* Pods_PopcloSignIn.framework */; };
+		51AF0B6ED9FAD82FA2C241E7 /* Pods_PopcloSignIn_PopcloSignInUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6156567F903D57C496D87F39 /* Pods_PopcloSignIn_PopcloSignInUITests.framework */; };
+		E37040133E9B5C07EB916840 /* Pods_PopcloSignInTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E871B9D1FC3DCD8FEA20B9C /* Pods_PopcloSignInTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0421417926B8EFCF00CA4D0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0421415A26B8EFCB00CA4D0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0421416126B8EFCB00CA4D0C;
+			remoteInfo = PopcloSignIn;
+		};
+		0421418426B8EFCF00CA4D0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0421415A26B8EFCB00CA4D0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0421416126B8EFCB00CA4D0C;
+			remoteInfo = PopcloSignIn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0421416226B8EFCB00CA4D0C /* PopcloSignIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopcloSignIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0421416526B8EFCB00CA4D0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0421416726B8EFCB00CA4D0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0421416926B8EFCB00CA4D0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0421416C26B8EFCB00CA4D0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0421416E26B8EFCE00CA4D0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0421417126B8EFCE00CA4D0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0421417326B8EFCE00CA4D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0421417826B8EFCE00CA4D0C /* PopcloSignInTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopcloSignInTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0421417C26B8EFCF00CA4D0C /* PopcloSignInTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopcloSignInTests.swift; sourceTree = "<group>"; };
+		0421417E26B8EFCF00CA4D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0421418326B8EFCF00CA4D0C /* PopcloSignInUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopcloSignInUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0421418726B8EFCF00CA4D0C /* PopcloSignInUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopcloSignInUITests.swift; sourceTree = "<group>"; };
+		0421418926B8EFCF00CA4D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0421419526B8F01200CA4D0C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		0421419726B8F02800CA4D0C /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		0421419926B8F05000CA4D0C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0421419C26B8F89000CA4D0C /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		0421419F26BA14CD00CA4D0C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		042141A126BA614A00CA4D0C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		04A1BB1F26C03B1A008633D5 /* homebg.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = homebg.mp4; sourceTree = "<group>"; };
+		04A1BB2526C05CA0008633D5 /* loginbg.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = loginbg.mp4; sourceTree = "<group>"; };
+		1E871B9D1FC3DCD8FEA20B9C /* Pods_PopcloSignInTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopcloSignInTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6156567F903D57C496D87F39 /* Pods_PopcloSignIn_PopcloSignInUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopcloSignIn_PopcloSignInUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CFC80DCE1C030378506461D /* Pods_PopcloSignIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopcloSignIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7926E3E987DDAA3882091CCD /* Pods-PopcloSignInTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopcloSignInTests.debug.xcconfig"; path = "Target Support Files/Pods-PopcloSignInTests/Pods-PopcloSignInTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7CE34EFFB2A97C5509ADCE70 /* Pods-PopcloSignIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopcloSignIn.debug.xcconfig"; path = "Target Support Files/Pods-PopcloSignIn/Pods-PopcloSignIn.debug.xcconfig"; sourceTree = "<group>"; };
+		99838AA8EF8547EA77C8F20A /* Pods-PopcloSignIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopcloSignIn.release.xcconfig"; path = "Target Support Files/Pods-PopcloSignIn/Pods-PopcloSignIn.release.xcconfig"; sourceTree = "<group>"; };
+		B29DC981A2C9F83D055FF438 /* Pods-PopcloSignIn-PopcloSignInUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopcloSignIn-PopcloSignInUITests.release.xcconfig"; path = "Target Support Files/Pods-PopcloSignIn-PopcloSignInUITests/Pods-PopcloSignIn-PopcloSignInUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BF8A378AA7B8EC0DB1F2370E /* Pods-PopcloSignInTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopcloSignInTests.release.xcconfig"; path = "Target Support Files/Pods-PopcloSignInTests/Pods-PopcloSignInTests.release.xcconfig"; sourceTree = "<group>"; };
+		FB0E0A4D21773FD92A8EADFB /* Pods-PopcloSignIn-PopcloSignInUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopcloSignIn-PopcloSignInUITests.debug.xcconfig"; path = "Target Support Files/Pods-PopcloSignIn-PopcloSignInUITests/Pods-PopcloSignIn-PopcloSignInUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0421415F26B8EFCB00CA4D0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C47E1B76332E21E783A18E2 /* Pods_PopcloSignIn.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0421417526B8EFCE00CA4D0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E37040133E9B5C07EB916840 /* Pods_PopcloSignInTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0421418026B8EFCF00CA4D0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51AF0B6ED9FAD82FA2C241E7 /* Pods_PopcloSignIn_PopcloSignInUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0421415926B8EFCB00CA4D0C = {
+			isa = PBXGroup;
+			children = (
+				0421416426B8EFCB00CA4D0C /* PopcloSignIn */,
+				0421417B26B8EFCF00CA4D0C /* PopcloSignInTests */,
+				0421418626B8EFCF00CA4D0C /* PopcloSignInUITests */,
+				0421416326B8EFCB00CA4D0C /* Products */,
+				50FBBE92ADA1CE45CC6F73AE /* Pods */,
+				8358D4AD392D3A2E4E79EAA8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0421416326B8EFCB00CA4D0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0421416226B8EFCB00CA4D0C /* PopcloSignIn.app */,
+				0421417826B8EFCE00CA4D0C /* PopcloSignInTests.xctest */,
+				0421418326B8EFCF00CA4D0C /* PopcloSignInUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0421416426B8EFCB00CA4D0C /* PopcloSignIn */ = {
+			isa = PBXGroup;
+			children = (
+				042141A326BB66CD00CA4D0C /* Media */,
+				0421416526B8EFCB00CA4D0C /* AppDelegate.swift */,
+				0421416726B8EFCB00CA4D0C /* SceneDelegate.swift */,
+				0421419E26B8F89A00CA4D0C /* Helpers */,
+				0421419B26B8F05C00CA4D0C /* View Controllers */,
+				0421416B26B8EFCB00CA4D0C /* Main.storyboard */,
+				0421416E26B8EFCE00CA4D0C /* Assets.xcassets */,
+				0421417026B8EFCE00CA4D0C /* LaunchScreen.storyboard */,
+				0421417326B8EFCE00CA4D0C /* Info.plist */,
+				0421419F26BA14CD00CA4D0C /* GoogleService-Info.plist */,
+			);
+			path = PopcloSignIn;
+			sourceTree = "<group>";
+		};
+		0421417B26B8EFCF00CA4D0C /* PopcloSignInTests */ = {
+			isa = PBXGroup;
+			children = (
+				0421417C26B8EFCF00CA4D0C /* PopcloSignInTests.swift */,
+				0421417E26B8EFCF00CA4D0C /* Info.plist */,
+			);
+			path = PopcloSignInTests;
+			sourceTree = "<group>";
+		};
+		0421418626B8EFCF00CA4D0C /* PopcloSignInUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0421418726B8EFCF00CA4D0C /* PopcloSignInUITests.swift */,
+				0421418926B8EFCF00CA4D0C /* Info.plist */,
+			);
+			path = PopcloSignInUITests;
+			sourceTree = "<group>";
+		};
+		0421419B26B8F05C00CA4D0C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0421419526B8F01200CA4D0C /* SignUpViewController.swift */,
+				0421419726B8F02800CA4D0C /* LogInViewController.swift */,
+				0421419926B8F05000CA4D0C /* HomeViewController.swift */,
+				0421416926B8EFCB00CA4D0C /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		0421419E26B8F89A00CA4D0C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0421419C26B8F89000CA4D0C /* Utilities.swift */,
+				042141A126BA614A00CA4D0C /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		042141A326BB66CD00CA4D0C /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				04A1BB2526C05CA0008633D5 /* loginbg.mp4 */,
+				04A1BB1F26C03B1A008633D5 /* homebg.mp4 */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		50FBBE92ADA1CE45CC6F73AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CE34EFFB2A97C5509ADCE70 /* Pods-PopcloSignIn.debug.xcconfig */,
+				99838AA8EF8547EA77C8F20A /* Pods-PopcloSignIn.release.xcconfig */,
+				FB0E0A4D21773FD92A8EADFB /* Pods-PopcloSignIn-PopcloSignInUITests.debug.xcconfig */,
+				B29DC981A2C9F83D055FF438 /* Pods-PopcloSignIn-PopcloSignInUITests.release.xcconfig */,
+				7926E3E987DDAA3882091CCD /* Pods-PopcloSignInTests.debug.xcconfig */,
+				BF8A378AA7B8EC0DB1F2370E /* Pods-PopcloSignInTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8358D4AD392D3A2E4E79EAA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CFC80DCE1C030378506461D /* Pods_PopcloSignIn.framework */,
+				6156567F903D57C496D87F39 /* Pods_PopcloSignIn_PopcloSignInUITests.framework */,
+				1E871B9D1FC3DCD8FEA20B9C /* Pods_PopcloSignInTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0421416126B8EFCB00CA4D0C /* PopcloSignIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0421418C26B8EFCF00CA4D0C /* Build configuration list for PBXNativeTarget "PopcloSignIn" */;
+			buildPhases = (
+				FD1883EF11A6A2B629623DC1 /* [CP] Check Pods Manifest.lock */,
+				0421415E26B8EFCB00CA4D0C /* Sources */,
+				0421415F26B8EFCB00CA4D0C /* Frameworks */,
+				0421416026B8EFCB00CA4D0C /* Resources */,
+				411DAC1FF5DB4BE67923AD54 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopcloSignIn;
+			productName = PopcloSignIn;
+			productReference = 0421416226B8EFCB00CA4D0C /* PopcloSignIn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0421417726B8EFCE00CA4D0C /* PopcloSignInTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0421418F26B8EFCF00CA4D0C /* Build configuration list for PBXNativeTarget "PopcloSignInTests" */;
+			buildPhases = (
+				4E84AA7026F2AC68F947E58B /* [CP] Check Pods Manifest.lock */,
+				0421417426B8EFCE00CA4D0C /* Sources */,
+				0421417526B8EFCE00CA4D0C /* Frameworks */,
+				0421417626B8EFCE00CA4D0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0421417A26B8EFCF00CA4D0C /* PBXTargetDependency */,
+			);
+			name = PopcloSignInTests;
+			productName = PopcloSignInTests;
+			productReference = 0421417826B8EFCE00CA4D0C /* PopcloSignInTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0421418226B8EFCF00CA4D0C /* PopcloSignInUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0421419226B8EFCF00CA4D0C /* Build configuration list for PBXNativeTarget "PopcloSignInUITests" */;
+			buildPhases = (
+				6E54004B48FB70FB1F6030DC /* [CP] Check Pods Manifest.lock */,
+				0421417F26B8EFCF00CA4D0C /* Sources */,
+				0421418026B8EFCF00CA4D0C /* Frameworks */,
+				0421418126B8EFCF00CA4D0C /* Resources */,
+				6C2F25045FBCC2E0C9207E2A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0421418526B8EFCF00CA4D0C /* PBXTargetDependency */,
+			);
+			name = PopcloSignInUITests;
+			productName = PopcloSignInUITests;
+			productReference = 0421418326B8EFCF00CA4D0C /* PopcloSignInUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0421415A26B8EFCB00CA4D0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					0421416126B8EFCB00CA4D0C = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					0421417726B8EFCE00CA4D0C = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 0421416126B8EFCB00CA4D0C;
+					};
+					0421418226B8EFCF00CA4D0C = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 0421416126B8EFCB00CA4D0C;
+					};
+				};
+			};
+			buildConfigurationList = 0421415D26B8EFCB00CA4D0C /* Build configuration list for PBXProject "PopcloSignIn" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0421415926B8EFCB00CA4D0C;
+			productRefGroup = 0421416326B8EFCB00CA4D0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0421416126B8EFCB00CA4D0C /* PopcloSignIn */,
+				0421417726B8EFCE00CA4D0C /* PopcloSignInTests */,
+				0421418226B8EFCF00CA4D0C /* PopcloSignInUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0421416026B8EFCB00CA4D0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0421417226B8EFCE00CA4D0C /* LaunchScreen.storyboard in Resources */,
+				042141A026BA14CD00CA4D0C /* GoogleService-Info.plist in Resources */,
+				04A1BB2026C03B1A008633D5 /* homebg.mp4 in Resources */,
+				0421416F26B8EFCE00CA4D0C /* Assets.xcassets in Resources */,
+				04A1BB2626C05CA0008633D5 /* loginbg.mp4 in Resources */,
+				0421416D26B8EFCB00CA4D0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0421417626B8EFCE00CA4D0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0421418126B8EFCF00CA4D0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		411DAC1FF5DB4BE67923AD54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PopcloSignIn/Pods-PopcloSignIn-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PopcloSignIn/Pods-PopcloSignIn-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PopcloSignIn/Pods-PopcloSignIn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E84AA7026F2AC68F947E58B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PopcloSignInTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C2F25045FBCC2E0C9207E2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PopcloSignIn-PopcloSignInUITests/Pods-PopcloSignIn-PopcloSignInUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PopcloSignIn-PopcloSignInUITests/Pods-PopcloSignIn-PopcloSignInUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PopcloSignIn-PopcloSignInUITests/Pods-PopcloSignIn-PopcloSignInUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E54004B48FB70FB1F6030DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PopcloSignIn-PopcloSignInUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD1883EF11A6A2B629623DC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PopcloSignIn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0421415E26B8EFCB00CA4D0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0421416A26B8EFCB00CA4D0C /* ViewController.swift in Sources */,
+				0421416626B8EFCB00CA4D0C /* AppDelegate.swift in Sources */,
+				0421419D26B8F89000CA4D0C /* Utilities.swift in Sources */,
+				0421419626B8F01200CA4D0C /* SignUpViewController.swift in Sources */,
+				0421419826B8F02800CA4D0C /* LogInViewController.swift in Sources */,
+				0421416826B8EFCB00CA4D0C /* SceneDelegate.swift in Sources */,
+				0421419A26B8F05000CA4D0C /* HomeViewController.swift in Sources */,
+				042141A226BA614A00CA4D0C /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0421417426B8EFCE00CA4D0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0421417D26B8EFCF00CA4D0C /* PopcloSignInTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0421417F26B8EFCF00CA4D0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0421418826B8EFCF00CA4D0C /* PopcloSignInUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0421417A26B8EFCF00CA4D0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0421416126B8EFCB00CA4D0C /* PopcloSignIn */;
+			targetProxy = 0421417926B8EFCF00CA4D0C /* PBXContainerItemProxy */;
+		};
+		0421418526B8EFCF00CA4D0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0421416126B8EFCB00CA4D0C /* PopcloSignIn */;
+			targetProxy = 0421418426B8EFCF00CA4D0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0421416B26B8EFCB00CA4D0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0421416C26B8EFCB00CA4D0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0421417026B8EFCE00CA4D0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0421417126B8EFCE00CA4D0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0421418A26B8EFCF00CA4D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0421418B26B8EFCF00CA4D0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0421418D26B8EFCF00CA4D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CE34EFFB2A97C5509ADCE70 /* Pods-PopcloSignIn.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LTDLXR3FN;
+				INFOPLIST_FILE = PopcloSignIn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JackRamos.PopcloSignIn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0421418E26B8EFCF00CA4D0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99838AA8EF8547EA77C8F20A /* Pods-PopcloSignIn.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LTDLXR3FN;
+				INFOPLIST_FILE = PopcloSignIn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JackRamos.PopcloSignIn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0421419026B8EFCF00CA4D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7926E3E987DDAA3882091CCD /* Pods-PopcloSignInTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LTDLXR3FN;
+				INFOPLIST_FILE = PopcloSignInTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JackRamos.PopcloSignInTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopcloSignIn.app/PopcloSignIn";
+			};
+			name = Debug;
+		};
+		0421419126B8EFCF00CA4D0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF8A378AA7B8EC0DB1F2370E /* Pods-PopcloSignInTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LTDLXR3FN;
+				INFOPLIST_FILE = PopcloSignInTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JackRamos.PopcloSignInTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopcloSignIn.app/PopcloSignIn";
+			};
+			name = Release;
+		};
+		0421419326B8EFCF00CA4D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB0E0A4D21773FD92A8EADFB /* Pods-PopcloSignIn-PopcloSignInUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LTDLXR3FN;
+				INFOPLIST_FILE = PopcloSignInUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JackRamos.PopcloSignInUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PopcloSignIn;
+			};
+			name = Debug;
+		};
+		0421419426B8EFCF00CA4D0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B29DC981A2C9F83D055FF438 /* Pods-PopcloSignIn-PopcloSignInUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LTDLXR3FN;
+				INFOPLIST_FILE = PopcloSignInUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JackRamos.PopcloSignInUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PopcloSignIn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0421415D26B8EFCB00CA4D0C /* Build configuration list for PBXProject "PopcloSignIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0421418A26B8EFCF00CA4D0C /* Debug */,
+				0421418B26B8EFCF00CA4D0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0421418C26B8EFCF00CA4D0C /* Build configuration list for PBXNativeTarget "PopcloSignIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0421418D26B8EFCF00CA4D0C /* Debug */,
+				0421418E26B8EFCF00CA4D0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0421418F26B8EFCF00CA4D0C /* Build configuration list for PBXNativeTarget "PopcloSignInTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0421419026B8EFCF00CA4D0C /* Debug */,
+				0421419126B8EFCF00CA4D0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0421419226B8EFCF00CA4D0C /* Build configuration list for PBXNativeTarget "PopcloSignInUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0421419326B8EFCF00CA4D0C /* Debug */,
+				0421419426B8EFCF00CA4D0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0421415A26B8EFCB00CA4D0C /* Project object */;
+}

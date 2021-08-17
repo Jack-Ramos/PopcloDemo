@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>390027769438-7isboavfmgn5jddef6ijv3qr1tbu40o0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.390027769438-7isboavfmgn5jddef6ijv3qr1tbu40o0</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAmGp4diBUljoMDU84sDw_7-8uOZiSChwA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>390027769438</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.JackRamos.PopcloSignIn</string>
+	<key>PROJECT_ID</key>
+	<string>popclo</string>
+	<key>STORAGE_BUCKET</key>
+	<string>popclo.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:390027769438:ios:a57384da35bfb92d3c26cf</string>
+</dict>
+</plist>
