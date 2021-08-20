@@ -21,8 +21,9 @@
 		0421419D26B8F89000CA4D0C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0421419C26B8F89000CA4D0C /* Utilities.swift */; };
 		042141A026BA14CD00CA4D0C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0421419F26BA14CD00CA4D0C /* GoogleService-Info.plist */; };
 		042141A226BA614A00CA4D0C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042141A126BA614A00CA4D0C /* Constants.swift */; };
-		04A1BB2026C03B1A008633D5 /* homebg.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04A1BB1F26C03B1A008633D5 /* homebg.mp4 */; };
-		04A1BB2626C05CA0008633D5 /* loginbg.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04A1BB2526C05CA0008633D5 /* loginbg.mp4 */; };
+		0481F45526CEFCA2008288B9 /* loginbg.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0481F45426CEFCA2008288B9 /* loginbg.mp4 */; };
+		0481F45626CEFCA2008288B9 /* loginbg.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0481F45426CEFCA2008288B9 /* loginbg.mp4 */; };
+		0481F45726CEFCA2008288B9 /* loginbg.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0481F45426CEFCA2008288B9 /* loginbg.mp4 */; };
 		3C47E1B76332E21E783A18E2 /* Pods_PopcloSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFC80DCE1C030378506461D /* Pods_PopcloSignIn.framework */; };
 		51AF0B6ED9FAD82FA2C241E7 /* Pods_PopcloSignIn_PopcloSignInUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6156567F903D57C496D87F39 /* Pods_PopcloSignIn_PopcloSignInUITests.framework */; };
 		E37040133E9B5C07EB916840 /* Pods_PopcloSignInTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E871B9D1FC3DCD8FEA20B9C /* Pods_PopcloSignInTests.framework */; };
@@ -66,8 +67,7 @@
 		0421419C26B8F89000CA4D0C /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		0421419F26BA14CD00CA4D0C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		042141A126BA614A00CA4D0C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		04A1BB1F26C03B1A008633D5 /* homebg.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = homebg.mp4; sourceTree = "<group>"; };
-		04A1BB2526C05CA0008633D5 /* loginbg.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = loginbg.mp4; sourceTree = "<group>"; };
+		0481F45426CEFCA2008288B9 /* loginbg.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = loginbg.mp4; path = PopcloSignIn/Media/loginbg.mp4; sourceTree = SOURCE_ROOT; };
 		1E871B9D1FC3DCD8FEA20B9C /* Pods_PopcloSignInTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopcloSignInTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6156567F903D57C496D87F39 /* Pods_PopcloSignIn_PopcloSignInUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopcloSignIn_PopcloSignInUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CFC80DCE1C030378506461D /* Pods_PopcloSignIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopcloSignIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -187,8 +187,7 @@
 		042141A326BB66CD00CA4D0C /* Media */ = {
 			isa = PBXGroup;
 			children = (
-				04A1BB2526C05CA0008633D5 /* loginbg.mp4 */,
-				04A1BB1F26C03B1A008633D5 /* homebg.mp4 */,
+				0481F45426CEFCA2008288B9 /* loginbg.mp4 */,
 			);
 			path = Media;
 			sourceTree = "<group>";
@@ -325,10 +324,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0421417226B8EFCE00CA4D0C /* LaunchScreen.storyboard in Resources */,
+				0481F45526CEFCA2008288B9 /* loginbg.mp4 in Resources */,
 				042141A026BA14CD00CA4D0C /* GoogleService-Info.plist in Resources */,
-				04A1BB2026C03B1A008633D5 /* homebg.mp4 in Resources */,
 				0421416F26B8EFCE00CA4D0C /* Assets.xcassets in Resources */,
-				04A1BB2626C05CA0008633D5 /* loginbg.mp4 in Resources */,
 				0421416D26B8EFCB00CA4D0C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +335,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0481F45626CEFCA2008288B9 /* loginbg.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +343,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0481F45726CEFCA2008288B9 /* loginbg.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
